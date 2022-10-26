@@ -21,7 +21,7 @@ public class Account extends BaseEntity{
     private String postalCode;
 
     @Enumerated(EnumType.STRING)
-    private UserRole userRole;
+    private UserRole role;
 
     @OneToOne(mappedBy = "account") //to drop the key in account table
     private User user;
