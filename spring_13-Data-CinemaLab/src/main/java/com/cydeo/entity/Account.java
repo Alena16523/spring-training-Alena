@@ -2,8 +2,11 @@ package com.cydeo.entity;
 
 import com.cydeo.enums.UserRole;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.annotation.sql.DataSourceDefinition;
 import javax.persistence.*;
 
 @Data
