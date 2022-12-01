@@ -1,6 +1,7 @@
 package com.cydeo.entity;
 
 import com.cydeo.enums.AddressType;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
